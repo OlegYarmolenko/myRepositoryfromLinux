@@ -10,3 +10,7 @@ done
 for x in {1..10}; do
   echo " X = $x"
 done
+
+for (( i=0; i<10; i++ )); do
+  echo "Nomer i = $i"
+done
